@@ -11,7 +11,7 @@ TOT=QTECOM*PU;
              else {if(TOT<=200){REM+=0.05*TOT;}  // si le total est entre  100  et 200 EUROSil y aura une remise  de 5% DU TOTAL
                    else{REM=0.1*TOT;}// si le total est superieur a 200 euros il y aura une remise  de 10% DU TOTAL
                    }
-
+PAP=TOT+PORT-REM;
 console.log("le total est :"+" "+TOT+"\n"+"le port : "+" "+PORT+"\n"+"la remise est :"+" "+REM+"\n "+"le prix à payer est:"+" "+PAP);
 
 
