@@ -25,7 +25,7 @@ var oubliemail=document.getElementById("oublimail");
 formValid.addEventListener('click', validation);
  nomsValid=/^[A-Z]([_a-zéè~¨-]*\s*)*$/;
  cdvalid=/^\d{5}$/;
- emailvalid=/^[-a-z_éè~¨0-9]+(\.[-a-z_éè~¨0-9])*@[a-z]+\.[a-z]{2,3}$/; 
+ emailvalid=/^[-a-z_éè~¨0-9]+(\.[-a-z_éè~¨0-9]*)*@[a-z]+\.[a-z]+{2,3}$/; 
  adrvalid=/^\d+(\s[-A-z_éè~¨0-9]+)+\s*$/;
 
 function validation(event){
